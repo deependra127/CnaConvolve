@@ -48,7 +48,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    max-width: 1400px;
+    /* max-width: 1400px; */
 }
 
 .logo {
@@ -73,6 +73,7 @@ body{
     width: 40vw;
     background: rgba(1, 2, 20, 0.50);
     backdrop-filter: blur(50px);
+    min-width: 500px;
 }
 
 .navbar a {
@@ -178,11 +179,11 @@ body{
 }
 #landingNav{
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 #reg{
-  margin-left: 33%;
+  /* margin-left: 33%; */
   display: flex;
   width: 14rem;
   height: 3.125rem;
@@ -195,7 +196,7 @@ body{
   background: linear-gradient(144deg, #6A52B4 11.39%, #3A208E 79.95%);
 }
 #tim{
-  margin-right: 33%;
+  /* margin-right: 33%; */
   display: flex;
   width: 14rem;
   height: 3.125rem;
@@ -444,7 +445,7 @@ max-width: 60vw;
 .parent1 {
   margin: auto;
     width: 80vw;
-    height: 60vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -461,7 +462,7 @@ max-width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 100px;
 }
 
 .div12 {
@@ -508,6 +509,8 @@ max-width: 60vw;
   font-weight: 500;
   line-height: 4rem; /* 114.286% */
   letter-spacing: -0.035rem;
+  display: inline-block;
+  padding-right: 20px;
   }
 .div12 #heading33 , .div13 #heading35{
   font-size: 1.375rem;
@@ -555,7 +558,7 @@ max-width: 60vw;
 
 #parent2{
   width: 80vw;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   gap: 12px;
   margin: auto;
@@ -889,4 +892,167 @@ line-height: 1.625rem; /* 162.5% */
   position: relative;
   z-index: 1;
   margin-top: 1rem;
+}
+
+.journey{
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#j1{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+
+}
+#j11,#j12{
+  width: 50%;
+}
+#j11{
+  padding-right: 10vw;
+  color:rgba(255, 255, 255, 0.80);
+/* Body/B2-Large */
+font-family: "Plus Jakarta Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+}
+#j121{
+text-align: center;
+border-radius: 2.5rem;
+border: 1px solid  rgba(217, 217, 217, 0.50);
+background:  #010214;
+box-shadow: 0 0 16px 0 #6747F6;
+padding: 10px 0px;
+}
+#j12{
+  padding: 0px 5vw;
+}
+#j2{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-top: 50px;
+  position: relative;
+}
+#jgap{
+  width: 0.2%;
+  background: #8D51F2;
+}
+#j21{
+  width: 49.9%;
+}
+#j22{
+  padding-left: 3vw;
+  width: 49.9%;
+  display: flex;
+  flex-direction: column;
+}
+.h1{
+  display: inline-block;
+  color: #EEE;
+
+/* Heading/H4-MinorHead */
+font-family: "Plus Jakarta Sans";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.875rem; /* 136.364% */
+padding-left: 5px;
+margin-bottom: 15px;
+}
+.h2{
+  color: #EEE;
+font-family: "Plus Jakarta Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.625rem; /* 162.5% */
+margin-bottom: 20px;
+}
+.h3{
+  color:  rgba(217, 217, 217, 0.50);
+
+/* Body/B2-Large */
+font-family: "Plus Jakarta Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+margin-bottom: 50px;
+}
+#ball1{
+  position: absolute;
+  top: 0px;
+  left: 50%; /* Center on the line */
+  transform: translate(-50%,-50%);
+}
+#ball2{
+  position: absolute;
+  bottom: 0px;
+  left: 50%; /* Center on the line */
+  transform: translate(-50%,50%);
+}
+#ball3{
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Center on the line */
+  transform: translate(-50%,-50%);
+}
+#j3{
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.journey svg, #j3 img{
+  transform: translateY(5px);
+}
+#j4{
+  text-align: center;
+  margin-bottom: 50px;
+}
+#j52{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#j52 div{
+  width: 27%;
+  aspect-ratio: 1;
+  background-color: #121326;
+  filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#j5{
+  position: relative;
+}
+#j51{
+  width: 100%;
+  /* top: 50%; */
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#j51 div{
+  z-index: 100;
+  width: 27%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #FFF;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem; /* 128.571% */
+  letter-spacing: -0.00438rem;
 }
