@@ -6,3 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             });
         });
+
+const hamburger = document.getElementById("hamburger");
+const sideMenu = document.getElementById("sidemenu");
+
+  hamburger.addEventListener("click", () => {
+    sideMenu.classList.toggle("active");
+  });
