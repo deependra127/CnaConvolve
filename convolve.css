@@ -12,7 +12,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   width: 100%;
   background-color: var(--dark-bg);
@@ -194,7 +196,7 @@ body{
   padding: 1rem 3.625rem 1rem 3.5625rem;
   justify-content: center;
   align-items: center;
-
+  white-space: nowrap;
   border-radius: 9.9375rem;
   border: 1px solid #6747F6;
   background: linear-gradient(144deg, #6A52B4 11.39%, #3A208E 79.95%);
@@ -212,6 +214,11 @@ body{
   border: 1px solid rgba(255, 255, 255, 0.41);
   background: #000;
   mix-blend-mode: exclusion;
+}
+#tim a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
 }
 
 /* landing ends  */
@@ -738,7 +745,21 @@ max-width: 60vw;
     border: 2px solid var(--highlight-color);
     flex: 0 0 auto;
 }
-
+#img1{
+  background-image: url(./assests/abhishek.jpeg);
+  background-size: cover;
+  background-position: top center;
+}
+#img2{
+  background-image: url(./assests/annirudh.jpeg);
+  background-size: cover;
+  background-position: top center;
+}
+#img3{
+  background-image: url(./assests/anurag.jpeg);
+  background-size: cover;
+  background-position: top center;
+}
 .contact-card .card-title {
     margin-bottom: 5px;
 }
@@ -940,7 +961,7 @@ max-width: 60vw;
 }
 #j11{
   padding-right: 10vw;
-  color:rgba(255, 255, 255, 0.80);/
+  color:rgba(255, 255, 255, 0.80);
   font-family: "Plus Jakarta Sans";
   font-size: 1rem;
   font-style: normal;
