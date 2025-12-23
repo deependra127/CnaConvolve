@@ -758,7 +758,7 @@ max-width: 60vw;
 #img3{
   background-image: url(./assests/anurag.jpeg);
   background-size: cover;
-  background-position: top center;
+  background-position:50% 20%;
 }
 .contact-card .card-title {
     margin-bottom: 5px;
